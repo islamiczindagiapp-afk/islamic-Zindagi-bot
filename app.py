@@ -3,7 +3,7 @@ import os
 import requests
 
 PHONE_ID = "1206682442537337"
-TOKEN = os.environ.get("TOKEN")
+TOKEN = OS.environ.get("TOKEN")
 
 app = Flask(__name__)
 
